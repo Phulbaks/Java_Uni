@@ -1,4 +1,4 @@
-package Test;
+package Lab1_var13.Test;
 
 
 public class n_params {

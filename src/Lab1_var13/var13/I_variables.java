@@ -1,7 +1,7 @@
-package var13;
+package Lab1_var13.var13;
 import java.util.Scanner;
 
-public class variables {
+public class I_variables {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

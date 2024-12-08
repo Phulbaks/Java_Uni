@@ -1,7 +1,7 @@
-package var13;
+package Lab1_var13.var13;
 import java.util.Scanner;
 
-public class complex_math_functions14 {
+public class II_complex_math_functions14 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

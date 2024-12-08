@@ -1,4 +1,4 @@
-package Test;
+package Lab1_var13.Test;
 
 public class Hello_World {
     public static void main(String[] args) {

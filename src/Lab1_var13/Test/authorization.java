@@ -1,4 +1,4 @@
-package Test;
+package Lab1_var13.Test;
 import java.util.Scanner;
 
 public class authorization {
