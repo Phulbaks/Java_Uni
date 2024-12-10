@@ -1,4 +1,4 @@
-package Lab1_var13.var13;
+package Lab1_var13.tasks;
 import java.util.Scanner;
 
 public class I_variables {
