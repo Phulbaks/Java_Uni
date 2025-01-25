@@ -19,13 +19,12 @@ public class Library {
         this.depositAmount = depositAmount;
     }
 
+    // название библиотеки
     public String getLibraryName() {
         return libraryName;
     }
-    public void setLibraryName(String libraryName) {
-        this.libraryName = libraryName;
-    }
 
+    // название читального зала
     public String getReadingRoomName() {
         return readingRoomName;
     }
@@ -33,13 +32,12 @@ public class Library {
         this.readingRoomName = readingRoomName;
     }
 
+    // фамилия читателя
     public String getReaderName() {
         return readerName;
     }
-    public void setReaderName(String readerName) {
-        this.readerName = readerName;
-    }
 
+    //название книги
     public String getBookName() {
         return bookName;
     }
@@ -47,24 +45,30 @@ public class Library {
         this.bookName = bookName;
     }
 
+    // дата выдачи
     public String getIssueDate() {
         return issueDate;
     }
-    public void setIssueDate(String issueDate) {
-        this.issueDate = issueDate;
-    }
 
+    // срок выдачи > 0
     public int getIssuePeriod() {
         return issuePeriod;
     }
     public void setIssuePeriod(int issuePeriod) {
+        if (issuePeriod <= 0) {
+            throw new IllegalArgumentException();
+        }
         this.issuePeriod = issuePeriod;
     }
 
+    // залог > 0
     public double getDepositAmount() {
         return depositAmount;
     }
     public void setDepositAmount(double depositAmount) {
+        if (depositAmount <= 0) {
+            throw new IllegalArgumentException();
+        }
         this.depositAmount = depositAmount;
     }
 }
